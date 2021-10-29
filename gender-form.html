@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">   
+    <title>A Form</title>
+</head>
+<header class="main-header">
+    <nav class="nav main-nav"> <!--to add a navigation to our site-->
+    <!--add logo here-->   
+        <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="Backg.html">Backgrund</a></li>
+            <li><a href="deco.html">Text decoration</a></li>
+            <li><a href="gender-form.html">Formuläret</a></li>
+            <li><a href="table.html">En tabel</a></li>
+        </ul>
+    </nav>
+    
+</header>
+<body>
+    <div>
+        <h1>En form</h1>
+        <form class="gender-form" action="Bokningapproval.html" method="get">
+        <div class="select">
+            <label>Välja ett kön</label>
+            <select name="gender" id="gender">
+                <option value="Man">Man </option>
+                <option value="kvinna">Kvinna</option>
+            </select>
+        </div>
+        <div>
+             <label for="namn">Namn:</label>
+             <input type="text" required id="namn">
+             
+             <label for="email">Email:</label>
+             <input type="email" required id="email">
+
+             <label for="mnumer">Mobilnummer:</label>
+             <input type="number" required id="mnumer">    
+                         
+             <label for="datum">Datum:</label>
+             <input type="date" required id="datum">  
+
+             <button class="button" type="submit">Submit</button>
+             <button class="button" type="reset">Reset</button>
+        </div> 
+        </form>      
+    </div> 
+    <a href="index.html">Tillbaka till startsidan</a>
+</body>
+</html>

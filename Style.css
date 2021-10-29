@@ -1,0 +1,154 @@
+/*Exter CSS stylings*/
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.main-header{
+    background-color: rgba(60, 18, 100, 0.973);
+}
+.nav ul { /* to remove the gaps on top and sides*/
+    margin: 0;
+}
+
+.nav li{ /*to show the list in one line*/
+    display: inline;
+}
+
+.nav a{ /*to style the links themselves and remove the default decorations*/
+    display: inline-block; /*add a space on top of the list*/
+    padding: .5em; /*to add a space between the links or the names*/
+    color: rgb(182, 170, 236);
+    text-decoration: none;
+    
+}
+
+.main-nav { /*to center and underline the list with light color*/
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(225, 225, 225, .3);
+}
+
+.nav a:hover{
+    background-color: rgba(225, 225, 225, .3)
+}
+
+.start-page{
+    text-align: center;
+}
+
+.list li {
+    
+    color: blueviolet;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    display: block;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.qabas {
+    height: 300px;
+    width: 200px;
+}
+
+.bg {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.bg-dec {
+    text-decoration: none;
+}
+
+.games {
+    position: absolute;
+}
+
+.left {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.right {
+    text-align: right;
+    text-decoration: overline;
+}
+
+.gender-form{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: blueviolet;
+    border-style: double;
+    border-width: 20px;
+    width: 500px;
+}
+
+.select {
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+.button {
+    margin: 10px;
+    display: block;
+    text-align: center;
+    color: black;
+    background-color: rgb(175, 147, 226);
+    font-size: large;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+table {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+td, th {
+    border: 3px solid;
+    text-align: left;
+    padding: 8px;
+}
+
+th{
+    background-color: aquamarine;
+}
+  
+tr {
+    background-color: #c396eca4;
+}
+
+
+.main-footer {
+    background-color: rgba(77, 25, 146, 0.5);
+    color: white;
+    padding: .25em 0;
+    text-align: center;
+    margin: 0;
+}
+
+.main-footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.main-footer li {
+    display: inline-block;
+    margin-left: 40px;
+}
