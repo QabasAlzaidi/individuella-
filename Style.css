@@ -65,7 +65,7 @@ img {
 }
 
 .games {
-    position: absolute;
+    
 }
 
 .left {
@@ -115,6 +115,7 @@ input {
 }
 
 table {
+    margin-top: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-collapse: collapse;
     width: 70%;
